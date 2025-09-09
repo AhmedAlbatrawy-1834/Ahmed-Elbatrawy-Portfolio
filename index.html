@@ -1,475 +1,558 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ahmed Elsayed Elbatrawy - .NET Full-Stack Developer Portfolio">
-    <meta name="keywords" content=".NET, Full-Stack Developer, C#, Software Development">
-    <meta name="author" content="Ahmed Elsayed Elbatrawy">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ahmed Elsayed Elbatrawy - .NET Full-Stack Developer Portfolio"
+    />
+    <meta
+      name="keywords"
+      content=".NET, Full-Stack Developer, C#, Software Development"
+    />
+    <meta name="author" content="Ahmed Elsayed Elbatrawy" />
     <title>Ahmed Elsayed Elbatrawy - .NET Full-Stack Developer</title>
-    <link rel="icon" type="image/png" href="imgs/MyIcon (1).png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="imgs/MyIcon (1).png" />
+    <link rel="stylesheet" href="style.css" />
     <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#hero"><img class="MyLogo" src="imgs/Logo.png" alt=""></a>
-            </div>
-            <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item">
-                    <a href="#hero" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#education" class="nav-link">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#achievements" class="nav-link">Achievements</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="nav-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#hero"><img class="MyLogo" src="imgs/Logo.png" alt="" /></a>
         </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#hero" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#achievements" class="nav-link">Achievements</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-name">Ahmed Elsayed Elbatrawy</h1>
-                    <h2 class="hero-title">.NET Full-Stack Developer</h2>
-                    <p class="hero-tagline">Building robust, scalable applications with passion for clean code and innovative solutions</p>
-                    <button class="cta-button" onclick="scrollToSection('projects')">
-                        <span>View My Work</span>
-                        <i class="fas fa-arrow-down"></i>
-                    </button>
-                </div>
-                <div class="hero-image">
-                    <!-- Replace with professional developer hero image -->
-                    <div class="hero-placeholder">
-                        <img class="MyImage" src="imgs/Ahmed Elbatrawy.jpg" alt="">
-                        <!-- <i class="fas fa-code"></i>
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-name">Ahmed Elsayed Elbatrawy</h1>
+            <h2 class="hero-title">.NET Full-Stack Developer</h2>
+            <p class="hero-tagline">
+              Building robust, scalable applications with passion for clean code
+              and innovative solutions
+            </p>
+            <button class="cta-button" onclick="scrollToSection('projects')">
+              <span>View My Work</span>
+              <i class="fas fa-arrow-down"></i>
+            </button>
+          </div>
+          <div class="hero-image">
+            <!-- Replace with professional developer hero image -->
+            <div class="hero-placeholder">
+              <img class="MyImage" src="imgs/Ahmed Elbatrawy.jpg" alt="" />
+              <!-- <i class="fas fa-code"></i>
                         <p>Professional Hero Image<br>(.NET Developer Theme)</p> -->
-                    </div>
-                </div>
             </div>
-            <div class="hero-scroll">
-                <div class="scroll-indicator"></div>
-            </div>
+          </div>
         </div>
+        <div class="hero-scroll">
+          <div class="scroll-indicator"></div>
+        </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <!-- Replace with professional headshot -->
-                    <div class="image-placeholder">
-                        <i class="fas fa-user"></i>
-                        <p>Professional Headshot</p>
-                    </div>
-                </div>
-                <div class="about-text">
-                    <p class="about-intro">
-                        I'm a passionate final-year Computer Science student at Damietta University, 
-                        specializing in .NET Full-Stack Development. My journey in software development 
-                        is driven by a deep fascination with creating efficient, scalable solutions that 
-                        solve real-world problems.
-                    </p>
-                    <p class="about-details">
-                        With solid experience in C#, LINQ, Entity Framework Core, and SQL Server, 
-                        I've built a strong foundation in both front-end and back-end development. 
-                        My technical expertise is complemented by strong problem-solving skills and 
-                        a commitment to writing clean, maintainable code.
-                    </p>
-                    <p class="about-goal">
-                        Currently, I'm seeking a training opportunity where I can apply my knowledge, 
-                        contribute to meaningful projects, and gain hands-on experience in a professional 
-                        development environment. I'm eager to collaborate with experienced developers 
-                        and continue growing my skills in the .NET ecosystem.
-                    </p>
-                </div>
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <!-- Replace with professional headshot -->
+            <div class="image-placeholder">
+              <i class="fas fa-user"></i>
+              <p>Professional Headshot</p>
             </div>
+          </div>
+          <div class="about-text">
+            <p class="about-intro">
+              I'm a passionate final-year Computer Science student at Damietta
+              University, specializing in .NET Full-Stack Development. My
+              journey in software development is driven by a deep fascination
+              with creating efficient, scalable solutions that solve real-world
+              problems.
+            </p>
+            <p class="about-details">
+              With solid experience in C#, LINQ, Entity Framework Core, and SQL
+              Server, I've built a strong foundation in both front-end and
+              back-end development. My technical expertise is complemented by
+              strong problem-solving skills and a commitment to writing clean,
+              maintainable code.
+            </p>
+            <p class="about-goal">
+              Currently, I'm seeking a training opportunity where I can apply my
+              knowledge, contribute to meaningful projects, and gain hands-on
+              experience in a professional development environment. I'm eager to
+              collaborate with experienced developers and continue growing my
+              skills in the .NET ecosystem.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="education section">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-content">
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="education-info">
-                        <h3 class="education-degree">Bachelor of Computer Science</h3>
-                        <h4 class="education-school">Damietta University</h4>
-                        <p class="education-faculty">Faculty of Computers and Information</p>
-                        <p class="education-period">October 2022 - June 2026</p>
-                        <p class="education-status">Final Year Student</p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-content">
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
             </div>
+            <div class="education-info">
+              <h3 class="education-degree">Bachelor of Computer Science</h3>
+              <h4 class="education-school">Damietta University</h4>
+              <p class="education-faculty">
+                Faculty of Computers and Information
+              </p>
+              <p class="education-period">October 2022 - June 2026</p>
+              <p class="education-status">Final Year Student</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills section">
-        <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
-            <div class="skills-content">
-                <!-- Technical Skills -->
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Technical Skills</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Object-Oriented Programming (OOP)</span>
-                        <span class="skill-item">Git/GitHub</span>
-                        <span class="skill-item">Agile Development</span>
-                        <span class="skill-item">Software Systems</span>
-                        <span class="skill-item">Object-Relational Mapping (ORM)</span>
-                    </div>
-                </div>
-
-                <!-- Programming Languages -->
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Programming Languages</h3>
-                    <div class="skill-progress">
-                        <div class="progress-item">
-                            <div class="progress-info">
-                                <span>C#</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="progress-item">
-                            <div class="progress-info">
-                                <span>SQL</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="progress-item">
-                            <div class="progress-info">
-                                <span>C++</span>
-                                <span>75%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="progress-item">
-                            <div class="progress-info">
-                                <span>Python</span>
-                                <span>70%</span>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 70%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Frameworks -->
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Frameworks & Technologies</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">.NET Framework</span>
-                        <span class="skill-item">Entity Framework Core</span>
-                        <span class="skill-item">LINQ</span>
-                        <span class="skill-item">SQL Server</span>
-                    </div>
-                </div>
-
-                <!-- Soft Skills -->
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Soft Skills</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Problem-Solving</span>
-                        <span class="skill-item">Communication</span>
-                        <span class="skill-item">Work Well Under Pressure</span>
-                        <span class="skill-item">Troubleshooting</span>
-                    </div>
-                </div>
-
-                <!-- Languages -->
-                <div class="skill-category">
-                    <h3 class="skill-category-title">Languages</h3>
-                    <div class="language-skills">
-                        <div class="language-item">
-                            <span class="language-name">Arabic</span>
-                            <span class="language-level">Native</span>
-                        </div>
-                        <div class="language-item">
-                            <span class="language-name">English</span>
-                            <span class="language-level">Good</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-content">
+          <!-- Technical Skills -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">Technical Skills</h3>
+            <div class="skill-items">
+              <span class="skill-item">Object-Oriented Programming (OOP)</span>
+              <span class="skill-item">Git/GitHub</span>
+              <span class="skill-item">Agile Development</span>
+              <span class="skill-item">Software Systems</span>
+              <span class="skill-item">Object-Relational Mapping (ORM)</span>
             </div>
+          </div>
+
+          <!-- Programming Languages -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">Programming Languages</h3>
+            <div class="skill-progress">
+              <div class="progress-item">
+                <div class="progress-info">
+                  <span>C#</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-info">
+                  <span>SQL</span>
+                  <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-info">
+                  <span>C++</span>
+                  <span>75%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-info">
+                  <span>Python</span>
+                  <span>70%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">Frameworks & Technologies</h3>
+            <div class="skill-items">
+              <span class="skill-item">.NET Framework</span>
+              <span class="skill-item">Entity Framework Core</span>
+              <span class="skill-item">LINQ</span>
+              <span class="skill-item">SQL Server</span>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">Soft Skills</h3>
+            <div class="skill-items">
+              <span class="skill-item">Problem-Solving</span>
+              <span class="skill-item">Communication</span>
+              <span class="skill-item">Work Well Under Pressure</span>
+              <span class="skill-item">Troubleshooting</span>
+            </div>
+          </div>
+
+          <!-- Languages -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">Languages</h3>
+            <div class="language-skills">
+              <div class="language-item">
+                <span class="language-name">Arabic</span>
+                <span class="language-level">Native</span>
+              </div>
+              <div class="language-item">
+                <span class="language-name">English</span>
+                <span class="language-level">Good</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Experience Section -->
     <section id="experience" class="experience section">
-        <div class="container">
-            <h2 class="section-title">Work Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">Jun 2025 - Dec 2025</div>
-                        <h3 class="timeline-title">.NET Full Stack Trainee</h3>
-                        <h4 class="timeline-company">DEPI (Digital Egypt Pioneers Initiative)</h4>
-                        <p class="timeline-description">
-                            During this intensive training program, I significantly improved my soft skills, 
-                            including communication and teamwork, while working collaboratively on various projects. 
-                            I learned the fundamentals of the .NET Framework and successfully applied them to real 
-                            projects, which helped me understand how to build structured, functional applications 
-                            from scratch. This experience enhanced my ability to work effectively in team 
-                            environments and strengthened my technical foundation in .NET development.
-                        </p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Jun 2025 - Dec 2025</div>
+              <h3 class="timeline-title">.NET Full Stack Trainee</h3>
+              <h4 class="timeline-company">
+                DEPI (Digital Egypt Pioneers Initiative)
+              </h4>
+              <p class="timeline-description">
+                During this intensive training program, I significantly improved
+                my soft skills, including communication and teamwork, while
+                working collaboratively on various projects. I learned the
+                fundamentals of the .NET Framework and successfully applied them
+                to real projects, which helped me understand how to build
+                structured, functional applications from scratch. This
+                experience enhanced my ability to work effectively in team
+                environments and strengthened my technical foundation in .NET
+                development.
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects section">
-        <div class="container">
-            <h2 class="section-title">Featured Project</h2>
-            <div class="project-showcase">
-                <div class="project-card">
-                    <div class="project-image">
-                        <!-- Replace with XO game mockup or console screenshot -->
-                        <div class="project-placeholder">
-                            <img Class="XO-Game" src="imgs/XO Game.png" alt="Game">
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3 class="project-title">XO-Two Player Game</h3>
-                            <span class="project-type">Personal Project</span>
-                        </div>
-                        
-                        <div class="project-details">
-                            <div class="detail-item">
-                                <strong>Context:</strong>
-                                <p>A self-learning project designed to strengthen my understanding of Object-Oriented Programming principles and C# fundamentals.</p>
-                            </div>
-                            
-                            <div class="detail-item">
-                                <strong>Description:</strong>
-                                <p>A console-based two-player Tic-Tac-Toe game built using C#. The game features a clean, intuitive interface with robust game logic and error handling.</p>
-                            </div>
-                            
-                            <div class="detail-item">
-                                <strong>My Role:</strong>
-                                <p>Sole developer responsible for the entire development lifecycle, focusing on applying Object-Oriented Programming principles to design a clean and modular codebase.</p>
-                            </div>
-                            
-                            <div class="detail-item">
-                                <strong>Outcome:</strong>
-                                <p>The project significantly improved my understanding of classes, methods, control flow, and user interaction in C#. It served as a practical application of OOP concepts and enhanced my problem-solving skills.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="project-technologies">
-                            <span class="tech-tag">C#</span>
-                            <span class="tech-tag">OOP</span>
-                            <span class="tech-tag">Console Application</span>
-                            <span class="tech-tag">Game Logic</span>
-                        </div>
-                        
-                        <div class="project-links">
-                            <a href="#" class="project-link github-link" target="_blank">
-                                <i class="fab fa-github"></i>
-                                View on GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Featured Project</h2>
+        <div class="project-showcase">
+          <div class="project-card">
+            <div class="project-image">
+              <!-- Replace with XO game mockup or console screenshot -->
+              <div class="project-placeholder">
+                <img class="XO-Game" src="imgs/XO Game.png" alt="Game" />
+              </div>
             </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">XO-Two Player Game</h3>
+                <span class="project-type">Personal Project</span>
+              </div>
+
+              <div class="project-details">
+                <div class="detail-item">
+                  <strong>Context:</strong>
+                  <p>
+                    A self-learning project designed to strengthen my
+                    understanding of Object-Oriented Programming principles and
+                    C# fundamentals.
+                  </p>
+                </div>
+
+                <div class="detail-item">
+                  <strong>Description:</strong>
+                  <p>
+                    A console-based two-player Tic-Tac-Toe game built using C#.
+                    The game features a clean, intuitive interface with robust
+                    game logic and error handling.
+                  </p>
+                </div>
+
+                <div class="detail-item">
+                  <strong>My Role:</strong>
+                  <p>
+                    Sole developer responsible for the entire development
+                    lifecycle, focusing on applying Object-Oriented Programming
+                    principles to design a clean and modular codebase.
+                  </p>
+                </div>
+
+                <div class="detail-item">
+                  <strong>Outcome:</strong>
+                  <p>
+                    The project significantly improved my understanding of
+                    classes, methods, control flow, and user interaction in C#.
+                    It served as a practical application of OOP concepts and
+                    enhanced my problem-solving skills.
+                  </p>
+                </div>
+              </div>
+
+              <div class="project-technologies">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">OOP</span>
+                <span class="tech-tag">Console Application</span>
+                <span class="tech-tag">Game Logic</span>
+              </div>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/AhmedAlbatrawy-1834/XO-TwoPlayer-Game.git"
+                  class="project-link github-link"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Achievements Section -->
     <section id="achievements" class="achievements section">
-        <div class="container">
-            <h2 class="section-title">Achievements</h2>
-            <div class="achievement-content">
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <div class="achievement-info">
-                        <h3 class="achievement-title">ECPC (Egyptian Collegiate Programming Contest)</h3>
-                        <p class="achievement-year">2023</p>
-                        <div class="achievement-details">
-                            <p class="achievement-description">
-                                Represented Damietta University as part of a 3-member programming team in the prestigious 
-                                Egyptian Collegiate Programming Contest. Our team demonstrated strong problem-solving skills 
-                                and collaborative teamwork under pressure.
-                            </p>
-                            <div class="achievement-result">
-                                <div class="result-highlight">
-                                    <span class="result-number">18th</span>
-                                    <span class="result-text">Place</span>
-                                </div>
-                                <p class="result-description">Among all participating university teams across Egypt</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Achievements</h2>
+        <div class="achievement-content">
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-trophy"></i>
             </div>
+            <div class="achievement-info">
+              <h3 class="achievement-title">
+                ECPC (Egyptian Collegiate Programming Contest)
+              </h3>
+              <p class="achievement-year">2023</p>
+              <div class="achievement-details">
+                <p class="achievement-description">
+                  Represented Damietta University as part of a 3-member
+                  programming team in the prestigious Egyptian Collegiate
+                  Programming Contest. Our team demonstrated strong
+                  problem-solving skills and collaborative teamwork under
+                  pressure.
+                </p>
+                <div class="achievement-result">
+                  <div class="result-highlight">
+                    <span class="result-number">18th</span>
+                    <span class="result-text">Place</span>
+                  </div>
+                  <p class="result-description">
+                    Among all participating university teams across Egypt
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-        <div class="container">
-            <h2 class="section-title">Let's Work Together!</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p class="contact-description">
-                        I'm always interested in new opportunities and exciting projects. 
-                        Whether you have a training opportunity, a project idea, or just want 
-                        to connect, I'd love to hear from you!
-                    </p>
-                    
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <div class="contact-text">
-                                <span>Email</span>
-                                <a href="mailto:albatrawyahmed@gmail.com">albatrawyahmed@gmail.com</a>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <div class="contact-text">
-                                <span>Phone</span>
-                                <a href="tel:+201020099519">01020099519</a>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <i class="fab fa-linkedin"></i>
-                            <div class="contact-text">
-                                <span>LinkedIn</span>
-                                <a href="https://linkedin.com/in/ahmed-albatrawy/" target="_blank">linkedin.com/in/ahmed-albatrawy/</a>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-item">
-                            <i class="fab fa-github"></i>
-                            <div class="contact-text">
-                                <span>GitHub</span>
-                                <a href="https://github.com/AhmedAlbatrawy-1834" target="_blank">github.com/AhmedAlbatrawy-1834</a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <h2 class="section-title">Let's Work Together!</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p class="contact-description">
+              I'm always interested in new opportunities and exciting projects.
+              Whether you have a training opportunity, a project idea, or just
+              want to connect, I'd love to hear from you!
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div class="contact-text">
+                  <span>Email</span>
+                  <a href="mailto:albatrawyahmed@gmail.com"
+                    >albatrawyahmed@gmail.com</a
+                  >
                 </div>
-                
-                <div class="contact-form-container">
-                    <form id="contact-form" class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name <span style="color: rgb(227, 75, 75);">*</span></label>
-                            <input type="text" id="name" name="name" required>
-                            <span class="error-message" id="name-error"></span>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email <span style="color: rgb(227, 75, 75);">*</span></label>
-                            <input type="email" id="email" name="email" required>
-                            <span class="error-message" id="email-error"></span>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject">Subject <span style="color: rgb(227, 75, 75);">*</span></label>
-                            <input type="text" id="subject" name="subject" required>
-                            <span class="error-message" id="subject-error"></span>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Message <span style="color: rgb(227, 75, 75);">*</span></label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                            <span class="error-message" id="message-error"></span>
-                        </div>
-                        
-                        <button type="submit" class="submit-button">
-                            <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div class="contact-text">
+                  <span>Phone</span>
+                  <a href="tel:+201020099519">01020099519</a>
                 </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <div class="contact-text">
+                  <span>LinkedIn</span>
+                  <a
+                    href="https://linkedin.com/in/ahmed-albatrawy/"
+                    target="_blank"
+                    >linkedin.com/in/ahmed-albatrawy/</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <div class="contact-text">
+                  <span>GitHub</span>
+                  <a
+                    href="https://github.com/AhmedAlbatrawy-1834"
+                    target="_blank"
+                    >github.com/AhmedAlbatrawy-1834</a
+                  >
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name"
+                  >Name <span style="color: rgb(227, 75, 75)">*</span></label
+                >
+                <input type="text" id="name" name="name" required />
+                <span class="error-message" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email"
+                  >Email <span style="color: rgb(227, 75, 75)">*</span></label
+                >
+                <input type="email" id="email" name="email" required />
+                <span class="error-message" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject"
+                  >Subject <span style="color: rgb(227, 75, 75)">*</span></label
+                >
+                <input type="text" id="subject" name="subject" required />
+                <span class="error-message" id="subject-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message"
+                  >Message <span style="color: rgb(227, 75, 75)">*</span></label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+                <span class="error-message" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="submit-button">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Ahmed Elsayed Elbatrawy. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/ahmed-albatrawy/" target="_blank" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/AhmedAlbatrawy-1834" target="_blank" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="mailto:albatrawyahmed@gmail.com" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Ahmed Elsayed Elbatrawy. All rights reserved.</p>
+          <div class="social-links">
+            <a
+              href="https://linkedin.com/in/ahmed-albatrawy/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/AhmedAlbatrawy-1834"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:albatrawyahmed@gmail.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- Back to Top Button -->
     <button id="back-to-top" class="back-to-top" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
+      <i class="fas fa-arrow-up"></i>
     </button>
 
     <!-- Loading Screen -->
     <div id="loading-screen" class="loading-screen">
-        <div class="loader"></div>
+      <div class="loader"></div>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
